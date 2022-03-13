@@ -5,6 +5,8 @@ import android.util.Log;
 
 import java.util.Random;
 
+import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
+
 public class MeinAsyncTask extends AsyncTask<Void,Void,Void> {
 
     private static final String TAG4LOGGING = "MeinAsyncTask";
@@ -12,9 +14,7 @@ public class MeinAsyncTask extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... voids) {
 
-        Random random = new Random();
-        int dauerInSekunden = random.nextInt(20);
-
+        int dauerInSekunden = Zufallsgenerator.getZufallsDauer();
         Log.i(TAG4LOGGING, "Berechnung gestartet, soll " + dauerInSekunden + " Sekunden dauern.");
 
         try {

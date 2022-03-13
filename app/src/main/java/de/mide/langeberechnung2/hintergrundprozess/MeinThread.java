@@ -4,6 +4,8 @@ import android.util.Log;
 
 import java.util.Random;
 
+import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
+
 
 public class MeinThread extends Thread {
 
@@ -16,9 +18,7 @@ public class MeinThread extends Thread {
     @Override
     public void run() {
 
-        Random random = new Random();
-        int dauerInSekunden = random.nextInt(20);
-
+        int dauerInSekunden = Zufallsgenerator.getZufallsDauer();
         Log.i(TAG4LOGGING, "Berechnung gestartet, soll " + dauerInSekunden + " Sekunden dauern.");
 
         try {
