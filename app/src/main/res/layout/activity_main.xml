@@ -21,4 +21,17 @@
         android:text="Ausführen in Async-Unterklasse\nohne GUI-Interaktion"
         android:onClick="inAsyncTaskUnterklasseOhneGuiAusfuehren" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Ausführen in Thread-Unterklasse\nmit GUI-Interaktion"
+        android:onClick="inThreadUnterklasseMitGuiAusfuehren"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ausführen in Thread-Unterklasse\nmit GUI-Interaktion"
+        android:onClick="inAsyncTaskUnterklasseMitGuiAusfuehren"/>
+
 </LinearLayout>
