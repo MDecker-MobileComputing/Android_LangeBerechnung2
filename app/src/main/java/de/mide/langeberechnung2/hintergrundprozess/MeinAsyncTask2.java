@@ -6,6 +6,9 @@ import android.widget.Button;
 
 import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
 
+/**
+ * AsyncTask mit GUI-Interaktion.
+ */
 public class MeinAsyncTask2 extends AsyncTask<Void,Void,Void>  {
 
     private static final String TAG4LOGGING = "MeinAsyncTask-2";
@@ -15,7 +18,7 @@ public class MeinAsyncTask2 extends AsyncTask<Void,Void,Void>  {
     /**
      * Konstruktor, um Button zu übergeben.
      *
-     * @param button Button, der wieder aktiviert werden soll, sobald die Berechnung abgeschaltet ist
+     * @param button Button, der wieder aktiviert wird, sobald die Berechnung abgeschaltet ist
      */
     public MeinAsyncTask2(Button button) {
 

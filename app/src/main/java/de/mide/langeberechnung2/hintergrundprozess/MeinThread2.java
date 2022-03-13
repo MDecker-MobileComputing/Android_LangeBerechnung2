@@ -19,7 +19,7 @@ public class MeinThread2 extends Thread {
     /**
      * Konstruktor zur Übergabe Button
      *
-     * @param button Button der nach Ende der Berechnung wieder eingeschaltet werden soll.
+     * @param button Button, der nach Ende der Berechnung wieder eingeschaltet wird
      */
     public MeinThread2(Button button) {
 
