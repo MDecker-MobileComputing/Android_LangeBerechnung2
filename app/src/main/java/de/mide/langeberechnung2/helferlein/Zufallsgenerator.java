@@ -11,11 +11,11 @@ public class Zufallsgenerator {
     /**
      * Erzeugt zufällige Laufzeit in Sekunden.
      *
-     * @return Wert im Bereich von 0..10, als Sekunden zu interpretieren.
+     * @return Wert im Bereich von 1..10, als Sekunden zu interpretieren.
      */
     public static int getZufallsDauer() {
 
-        return _random.nextInt(10);
+        return 1 + _random.nextInt(9);
     }
 
 }

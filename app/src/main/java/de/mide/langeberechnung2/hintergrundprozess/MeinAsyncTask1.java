@@ -7,9 +7,9 @@ import java.util.Random;
 
 import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
 
-public class MeinAsyncTask extends AsyncTask<Void,Void,Void> {
+public class MeinAsyncTask1 extends AsyncTask<Void,Void,Void> {
 
-    private static final String TAG4LOGGING = "MeinAsyncTask";
+    private static final String TAG4LOGGING = "MeinAsyncTask-1";
 
     @Override
     protected Void doInBackground(Void... voids) {

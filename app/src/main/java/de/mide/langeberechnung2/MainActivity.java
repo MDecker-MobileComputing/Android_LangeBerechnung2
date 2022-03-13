@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import de.mide.langeberechnung2.hintergrundprozess.MeinAsyncTask;
-import de.mide.langeberechnung2.hintergrundprozess.MeinThread;
+import de.mide.langeberechnung2.hintergrundprozess.MeinAsyncTask1;
+import de.mide.langeberechnung2.hintergrundprozess.MeinThread1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void inThreadUnterklasseAusfuehren(View view) {
 
-        MeinThread mt = new MeinThread();
+        MeinThread1 mt = new MeinThread1();
         mt.start();
     }
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void inAsyncTaskUnterklasseAusfuehren(View view) {
 
-        MeinAsyncTask mat = new MeinAsyncTask();
+        MeinAsyncTask1 mat = new MeinAsyncTask1();
         mat.execute();
     }
 

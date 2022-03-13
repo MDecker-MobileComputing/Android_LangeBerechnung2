@@ -7,9 +7,9 @@ import java.util.Random;
 import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
 
 
-public class MeinThread extends Thread {
+public class MeinThread1 extends Thread {
 
-    private static final String TAG4LOGGING = "MeinThread";
+    private static final String TAG4LOGGING = "MeinThread-1";
 
     /**
      * Der Inhalt dieser Methode wird in einem Hintergrund-Thread ausgeführt. Diese
