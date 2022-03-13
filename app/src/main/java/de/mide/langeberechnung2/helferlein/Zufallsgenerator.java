@@ -9,13 +9,13 @@ public class Zufallsgenerator {
     private static Random _random = new Random();
 
     /**
-     * Erzeugt zufällige Laufzeit.
+     * Erzeugt zufällige Laufzeit in Sekunden.
      *
-     * @return Wert im Bereich von 0..20, als Sekunden zu interpretieren.
+     * @return Wert im Bereich von 0..10, als Sekunden zu interpretieren.
      */
     public static int getZufallsDauer() {
 
-        return _random.nextInt(20);
+        return _random.nextInt(10);
     }
 
 }
