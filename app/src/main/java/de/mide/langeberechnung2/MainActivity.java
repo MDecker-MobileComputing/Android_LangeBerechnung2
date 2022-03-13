@@ -21,18 +21,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Event-Handler für Button "Ausführen in Thread-Unterklasse".
+     * Event-Handler für Button "Ausführen in Thread-Unterklasse ohne GUI-Interaktion".
      */
-    public void inThreadUnterklasseAusfuehren(View view) {
+    public void inThreadUnterklasseOhneGuiAusfuehren(View view) {
 
         MeinThread1 mt = new MeinThread1();
         mt.start();
     }
 
     /**
-     * Event-Handler für Button "Ausführen in AsyncTask-Unterklasse".
+     * Event-Handler für Button "Ausführen in AsyncTask-Unterklasse ohne GUI-Interaktion".
      */
-    public void inAsyncTaskUnterklasseAusfuehren(View view) {
+    public void inAsyncTaskUnterklasseOhneGuiAusfuehren(View view) {
 
         MeinAsyncTask1 mat = new MeinAsyncTask1();
         mat.execute();

@@ -7,6 +7,9 @@ import java.util.Random;
 
 import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
 
+/**
+ * AsyncTask ohne GUI-Interaktion.
+ */
 public class MeinAsyncTask1 extends AsyncTask<Void,Void,Void> {
 
     private static final String TAG4LOGGING = "MeinAsyncTask-1";

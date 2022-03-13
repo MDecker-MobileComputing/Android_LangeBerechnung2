@@ -12,14 +12,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ausführen in Thread-Unterklasse"
-        android:onClick="inThreadUnterklasseAusfuehren"/>
+        android:text="Ausführen in Thread-Unterklasse\nohne GUI-Interaktion"
+        android:onClick="inThreadUnterklasseOhneGuiAusfuehren"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Ausführen in Async-Unterklasse"
-        android:onClick="inAsyncTaskUnterklasseAusfuehren" />
+        android:text="Ausführen in Async-Unterklasse\nohne GUI-Interaktion"
+        android:onClick="inAsyncTaskUnterklasseOhneGuiAusfuehren" />
 
 </LinearLayout>

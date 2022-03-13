@@ -6,7 +6,9 @@ import java.util.Random;
 
 import de.mide.langeberechnung2.helferlein.Zufallsgenerator;
 
-
+/**
+ * Thread ohne GUI-Interaktion.
+ */
 public class MeinThread1 extends Thread {
 
     private static final String TAG4LOGGING = "MeinThread-1";
