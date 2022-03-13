@@ -2,6 +2,11 @@
 
 This repository contains an Android Studio project for a simple native Android app that demonstrates how to run long-running operations in a background thread.
 
+<br>
+
+![Screenshot](screenshot_1.png)
+
+<br>
 
 ----
 
