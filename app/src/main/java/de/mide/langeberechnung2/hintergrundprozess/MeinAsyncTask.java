@@ -1,20 +1,16 @@
 package de.mide.langeberechnung2.hintergrundprozess;
 
+import android.os.AsyncTask;
 import android.util.Log;
 
 import java.util.Random;
 
+public class MeinAsyncTask extends AsyncTask<Void,Void,Void> {
 
-public class MeinThread extends Thread {
+    private static final String TAG4LOGGING = "MeinAsyncTask";
 
-    private static final String TAG4LOGGING = "MeinThread";
-
-    /**
-     * Der Inhalt dieser Methode wird in einem Hintergrund-Thread ausgeführt. Diese
-     * Methode darf nicht direkt aufgerufen werden.
-     */
     @Override
-    public void run() {
+    protected Void doInBackground(Void... voids) {
 
         Random random = new Random();
         int dauerInSekunden = random.nextInt(20);
@@ -31,6 +27,8 @@ public class MeinThread extends Thread {
         }
 
         Log.i(TAG4LOGGING, "Berechnung beendet.");
+
+        return null;
     }
 
 }
