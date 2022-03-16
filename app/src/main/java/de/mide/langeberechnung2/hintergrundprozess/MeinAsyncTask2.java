@@ -50,7 +50,7 @@ public class MeinAsyncTask2 extends AsyncTask<Void,Void,Void>  {
      * beendet ist: Der zugehörige Button wird wieder eingeschaltet.
      */
     @Override
-    protected void onPostExecute(Void unused) {
+    protected void onPostExecute(Void v) {
 
         _button.setEnabled(true);
     }
